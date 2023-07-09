@@ -1,6 +1,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -37,5 +38,19 @@ nav>ul {
     font-weight: 700;
     padding: 15px 35px;
  }
-
+ .header{
+    background: #FFF8F3;
+    width: 1600px;
+    height: 837px;
+ }
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+   
+}
+.banner .portfolio-banner{
+    width: 537px;
+    
+}
 
