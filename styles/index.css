@@ -47,6 +47,14 @@ nav>ul {
     background-position: bottom right;
     margin: auto;
  }
+ .developer{
+    color: rgba(24, 24, 24, 0.15);
+font-family: Open Sans;
+font-size: 100px;
+font-weight: 700;
+letter-spacing: 33px;
+ 
+ }
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -147,6 +155,9 @@ main{
     display: flex;
     gap: 24px;
 }
+.skill-description{
+    color: #757575;
+}
 .skill{
     padding: 30px;
     
@@ -204,5 +215,5 @@ margin-top: 100px;
     border-radius: 5px;
    background: #FFF;
    border: 0;
-   width: 160%;
+   width: 100%;
 }
