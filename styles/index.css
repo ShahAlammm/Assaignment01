@@ -42,30 +42,26 @@ nav>ul {
     background: #FFF8F3;
     width: 1600px;
     height: 837px;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     margin: auto;
  }
- .developer{
-    color: rgba(24, 24, 24, 0.15);
-font-family: Open Sans;
-font-size: 100px;
-font-weight: 700;
-letter-spacing: 33px;
  
- }
 .banner{
-    padding: 30px 30px 0px 150px;
+    padding: 30px 20px 0px 150px;
     display: flex;
     align-items: center;
    justify-content: space-between;
    
 }
-.banner .portfolio-banner{
-    width: 537px;
-    
-   
+.banner-para{
+    color: #757575;
+}
+.portfolio-banner{
+   width: 560px;
+   height: 623px;
+  
 }
 .banner-start{
     font-size: 45px;
@@ -103,6 +99,9 @@ text-align: center;
 font-size: 20px;
 font-weight: 400;
 line-height: 30px;
+}
+.info-title{
+    color: black;
 }
 .section-title{ 
     color: black;
@@ -203,7 +202,7 @@ footer{
     color: #181818;
 font-size: 35px;
 font-weight: 500;
-margin: 0 400px;
+margin: 0 250px;
 margin-top: 100px;
     
 }
